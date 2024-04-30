@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: white;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    height: 1200px;
+}
+.nav-bar {
+    /* position: fixed; */
+    top: 0;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    z-index: 1;
+    gap: 20px;
+    padding-left: 40px;
+    align-items: center;
+    /* border: 1px solid red ; */
+}
+.nav-text{
+    text-decoration: none;
+    color: black;
+    font-family: Syne;
+    font-weight: 100;
+}
+.page-title{
+    text-decoration: none;
+    font-family: Montserrat;
+    color: black;
+    font-size: 2rem;
+    padding-left: 40px;
+    border: 1px solid green ;
+}
+.project-tab-position{
+    width: 73%;
+    height: 200px;
+    top: 20px;
+    left: 30px;
+}
+
+/* LANDING PAGE */
+
+#landing-page{
+    color: black;
+}
+.flex-image-1{
+    max-width: 100%;
+    padding-bottom: 25px;
+    /* border-radius: 25px; */
+}
+.flex-image-1:hover{
+    opacity: 70%;
+}
+.flex-image-2{
+    max-width: 100%;
+    /* border-radius: 25px; */
+}
+.flex-image-2:hover{
+    opacity: 70%;
+}
+.flex-image-3{
+    max-width: 100%;
+    /* border-radius: 25px; */
+}
+.flex-image-3:hover{
+    opacity: 70%;
+}
+.flex-image-4{
+    max-width: 100%;
+    /* border-radius: 25px; */
+}
+.flex-image-4:hover{
+    opacity: 70%;
+}
+#row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 60px;
+}
+.column{
+    flex: 1;
+    padding: 10px;
+    min-width: 25%;
+}
+.column-text{
+    font-family: Syne;
+    font-size: 14px;
+    text-align: center;
+}
+.sub-genre{
+    height: 300px;
+    bottom: 30px;
+}
+#sub-genres{
+    width: 73%;
+    height: 200px;
+    top: 845px;
+    left: 30px;
+}
+.sub-genres img{
+    max-width: 100%;
+}
+.frame-text{
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat;
+    /* opacity: 0; */
+    font-size: 3rem;
+    position: absolute;
+    left: 40px;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    -ms-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+    text-align: center;
+}
+.image-styling{
+    object-fit: cover;
+}
+#header {
+    text-align: left;
+    color: black;
+    font-size: 85px; /* Big font size */
+    font-family: Syne;
+    font-weight: 700;
+    position: fixed; /* Fixed position - sit on top of the page */
+    top: 55px;
+    transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
+  }
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+#contacts-page{
+    left: 40px;
+}
+#contacts-page p{
+    font-family: Montserrat;
+    font-size: 1rem;
+    color: black;
+}
+#contact{
+    font-family: Syne;
+    font-weight: 100;
+    color: black;
+    position: fixed;
+    font-size: 18px;
+    text-align: left;
+    bottom: 20px;
+}
+
+/* SUBMISSIONS */
+
+.main-placeholder{
+    display: flex;
+    flex-direction: row;
+}
+.text-placeholder h1{
+    font-family: Syne;
+    font-weight: 100;
+    color: black;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+.text-placeholder h2{
+    font-family: Syne;
+    padding-left: 40px;
+}
+.text-placeholder p{
+    padding: 40px;
+    font-family: Syne;
+    font-size: 1rem;
+}
+.position-right-fixed{
+    flex-direction: column;
+    color: black;
+    font-family: Syne;
+    position: fixed;
+    right: 0;
+    width: 40%;
+    top: 50px;
+}
+.position-right-scroll{
+    flex-direction: column;
+    color: white;
+    position: fixed;
+    width: 50%;
+    top: 50px;
+    right: 0;
+}
+.position-left-scroll{
+    flex-direction: column;
+    display: block;
+    width: 60%;
+    position: relative;
+    padding-left: 10px;
+    top: 60px;
+}
+/* .position-left-scroll img{
+    bottom: 25px;
+} */
+.position-left-fixed{
+    flex-direction: column;
+    display: block;
+    width: 50%;
+    position: fixed;
+    top: 50px;
+}
+#image-placeholder img { 
+    width: 100%;
+    display: block;
+    top: 60px;
+    bottom: 20px;
+}
+#submission-title{
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
